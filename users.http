@@ -1,0 +1,12 @@
+### Create a new user
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "assbio",
+  "doc": "1d5555",
+  "id": 3
+}
+
+### Get all users
+GET http://localhost:3000/users
